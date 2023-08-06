@@ -7,3 +7,11 @@
 #### 3. Choose the operation: Select the desired matrix operation from the given options (1 for addition, 2 for subtraction, 3 for scalar multiplication, 4 for matrix multiplication, or 5 for transpose).
 #### 4. Follow additional prompts: Depending on the operation chosen, you may be asked for additional inputs (e.g., elements of the second matrix or a scalar value).
 #### 5. View the result: The program will display the result of the chosen matrix operation.
+
+# C Project 2
+## The task is to recreate the famous tiec-tac-toe game or the dots and crosses game using the Python programming language It is NOT necessary to indlude a Graphical User Interface (GUT). The game should be a multiplayer game including two players on a local system. The board of the tic- tac-toe game should be designed carefully in the CLI in a well formatted manner which should be understandable to the common user. 
+#### The printBoard function: This function prints the current state of the Tic-Tac-Toe board, including the moves made by each player, along with separators to display the grid.
+#### The checkWin function: This function checks whether a given player ('X' or 'O') has won the game. It checks all the rows, columns, and diagonals to determine if there are three consecutive symbols from the same player.
+#### The main function: This is the entry point of the program. It initializes the game board, keeps track of the current player (0 for 'X' and 1 for 'O'), and the number of moves made so far.
+#### The main game loop: The loop continues until there are no more available moves (9 moves in total) or a player wins. Inside the loop, the board is printed, the current player is prompted to enter their move (row and column), and the move is checked for validity (within the board boundaries and not already taken). If the move is valid, the board is updated with the player's symbol, and the current player is switched.
+#### After the loop ends, the final board state is printed, and the winner or draw is determined using the checkWin function. The result is displayed accordingly.
