@@ -15,3 +15,12 @@
 #### The main function: This is the entry point of the program. It initializes the game board, keeps track of the current player (0 for 'X' and 1 for 'O'), and the number of moves made so far.
 #### The main game loop: The loop continues until there are no more available moves (9 moves in total) or a player wins. Inside the loop, the board is printed, the current player is prompted to enter their move (row and column), and the move is checked for validity (within the board boundaries and not already taken). If the move is valid, the board is updated with the player's symbol, and the current player is switched.
 #### After the loop ends, the final board state is printed, and the winner or draw is determined using the checkWin function. The result is displayed accordingly.
+
+# C Project 3
+### This is a menu-driven program that simulates an election voting system. It allows users to store candidate names, input voter details, and conduct voting. The program ensures voter privacy by clearing the screen after each vote and displays the election results, including a tie scenario.
+## Features
+### 1. Store Candidate Names: The program allows you to store the names of candidates participating in the election.
+### 2. Input Voter Details: You can input voter names, addresses, and IDs to maintain a record.
+### 3. Conduct Voting: During the main voting process, users can cast their votes for candidates or choose NOTA (None Of The Above).
+### 4. Voter Privacy: The command-line interface (CLI) is cleared after each vote to maintain voter anonymity.
+### 5. Display Election Results: After voting, the program displays the candidates with the maximum number of votes and declares the winner(s). In case of a tie, all tied candidates are declared winners.
