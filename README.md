@@ -24,3 +24,11 @@
 ### 3. Conduct Voting: During the main voting process, users can cast their votes for candidates or choose NOTA (None Of The Above).
 ### 4. Voter Privacy: The command-line interface (CLI) is cleared after each vote to maintain voter anonymity.
 ### 5. Display Election Results: After voting, the program displays the candidates with the maximum number of votes and declares the winner(s). In case of a tie, all tied candidates are declared winners.
+
+# C Project 4
+## This is a simple CLI-based grocery billing system that takes customer details and the details of the goods bought as input. It calculates the total price for each item based on the provided rate and quantity and then displays the bill in a well-formatted table manner to the customer.
+## Features
+### Accepts customer details (name, contact information, etc.).
+### Takes details of goods bought (name, rate, quantity).
+### Calculates the price for each item and computes the total bill amount.
+### Displays the bill in a well-formatted table with item details and prices.
